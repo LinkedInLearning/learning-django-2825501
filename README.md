@@ -1,9 +1,9 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course [COURSENAME]. The full course is available from [LinkedIn Learning](LICOURSEURL).
+# Learning Django
+This is the repository for the LinkedIn Learning course Learning Django. The full course is available from [LinkedIn Learning](LICOURSEURL).
 
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)
+[!Learning Django](COURSEIMAGE)](LICOURSEURL)
 
-[COURSEDESCRIPTION]
+With Django, you can take web applications from concept to launch in a matter of hours. It's a free and open-source framework that's designed on top of Python and supports data-driven architecture. Learn what you need to know to get up and running with Django with these tutorials from instructor Caleb Smith. Caleb walks through creating a brand-new Django project, defining a data model and fields, querying the database, and using Django's built-in URL handlers, views, and templates to structure the rest of the backend. Plus, learn how to incorporate CSS and JavaScript to enhance the style and usability of your Django templates.
 
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
