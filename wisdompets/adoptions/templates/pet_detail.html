@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
 <div>
     <h3>{{ pet.name|capfirst }}</h3>
     <p>{{ pet.species }}</p>
@@ -22,3 +24,4 @@
     <p>Submitted on: {{ pet.submission_date|date:"M d Y" }}</p>
     <p>{{ pet.description }}</p>
 </div>
+{% endblock %}
