@@ -1,8 +1,9 @@
+{% load static %}
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <title>Home - Wisdom Pet Medicine</title>
-        <link rel="stylesheet" id="ample-style-css" href="http://wisdompets.com/wp-content/themes/ample/style.css?ver=4.8.3" type="text/css" media="all">
+        <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
     </head>
     <body class="wide">
         <div id="page" class="hfeed site">
@@ -11,7 +12,7 @@
                     <div class="main-head-wrap inner-wrap clearfix">
                         <div id="header-logo-image">
                             <a href="/">
-                                <img src="http://wisdompets.com/wp-content/uploads/2015/10/wisdom-pet-logo-single.png" alt="Wisdom Pet Medicine">
+                                <img src="{% static 'images/logo.png' %}" alt="Wisdom Pet Medicine">
                             </a>
                         </div>
                         <div id="header-text" class="">
@@ -21,7 +22,7 @@
                             <p>We treat your pets like we treat our own.</p>
                         </div>
                     </div>
-                    <img src="http://wisdompets.com/wp-content/uploads/2015/10/1500x400-header_114150655.jpg" alt="Wisdom Pet Medicine">
+                    <img src="{% static 'images/header.jpg' %}" alt="Wisdom Pet Medicine">
                 </div>
             </header>
             <div class="main-wrapper">
@@ -42,5 +43,6 @@
                 </div>
             </footer>
         </div>
+        <script src="{% static 'main.js' %}"></script>
     </body>
 </html>
